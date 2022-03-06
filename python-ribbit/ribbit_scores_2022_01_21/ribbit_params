@@ -1,4 +1,4 @@
-# minimum and maximum rate of pulsing (pulses per second) to search for
+	# minimum and maximum rate of pulsing (pulses per second) to search for
 pulse_rate_range = [14,28] # previously [20,27] this range may catch a few more frogs without much more false positives
 
 # look for a vocalization in the range of 1000-2000 Hz

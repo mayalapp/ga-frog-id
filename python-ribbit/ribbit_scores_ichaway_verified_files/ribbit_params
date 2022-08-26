@@ -1,0 +1,15 @@
+# minimum and maximum rate of pulsing (pulses per second) to search for
+pulse_rate_range = [14,28]
+
+# look for a vocalization in the range of 1000-2000 Hz
+signal_band = [300,1000]
+
+# subtract the amplitude signal from these frequency ranges
+noise_bands = [[150,200], [1300,1600]]
+
+#divides the signal into segments this many seconds long, analyzes each independently
+clip_duration = 1.5 #seconds
+clip_overlap = 0.5 #seconds
+
+#if True, it will show the power spectrum plot for each audio segment
+show_plots = True

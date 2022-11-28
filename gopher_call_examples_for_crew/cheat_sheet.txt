@@ -1,0 +1,7 @@
+Cheat Sheet: 
+
+clear_Lcapito_call_1.wav - at least one call at 3:43
+clear_Lcapito_call_2.wav - many calls, including one at 0:06
+clear_Lcapito_call_3.wav - at least one call at 1:55
+
+difficult_Lcapito_call.wav - hard to hear but easier to see, call occurs at 3:39 

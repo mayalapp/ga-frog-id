@@ -13,3 +13,5 @@ clip_overlap = 0.5 #seconds
 
 #if True, it will show the power spectrum plot for each audio segment
 show_plots = True
+
+window_samples = 512

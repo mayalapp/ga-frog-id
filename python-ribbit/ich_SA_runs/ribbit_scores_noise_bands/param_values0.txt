@@ -1,0 +1,6 @@
+pulse_rate_range = [14, 28]
+signal_band = [600, 800]
+noise_bands = [[150, 200], [1100, 1200]]
+clip_duration = 1
+clip_overlap = 0.5
+window_samples = 512

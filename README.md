@@ -28,5 +28,11 @@ This project uses the [repeat interval-based bioacoustic identification tool (RI
 1. The data cleaning files are two examples of how to combine the RIBBIT score csv files with data of files that have already been manually listened to, to assess the capabilities of the model (e.g. precision and recall). 
 
 1. The `eda.ipynb` file is an example of exploratory data analysis using the cleaned data. 
+
+## Current issues
+
+* Some of the file names in the verified Ichaway data have different values for the "minutes" than the actual audio files. This means when merging the verified data with the RIBBIT scores, we either (A) lose some data or we (B) assume the minutes indicator is unimportant. Currently we are using option (A), as it is more reliable, but we do lose some of our data. 
+
+
   
   

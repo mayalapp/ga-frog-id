@@ -6,7 +6,8 @@ This project uses the [repeat interval-based bioacoustic identification tool (RI
 
 ## Instalation and setup 
 
-1. Install OpenSoundscape as directed [here](http://opensoundscape.org/en/latest/). 
+1. If you have not already, install [Python](https://www.python.org/downloads/) and [Jupyter](https://jupyter.org/install). 
+1. Install [OpenSoundscape](http://opensoundscape.org/en/latest/). 
 1. If you are unfamiliar with Python environments, use the `python_ribbit/create_environment.ipynb` file to guide you through creating an OpenSoundscape environment. 
 
 

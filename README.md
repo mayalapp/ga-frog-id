@@ -8,28 +8,38 @@ This project uses the [repeat interval-based bioacoustic identification tool (RI
 
 1. If you have not already, install [Python](https://www.python.org/downloads/) and [Jupyter](https://jupyter.org/install). 
 1. Install [OpenSoundscape](http://opensoundscape.org/en/latest/). 
-1. Setup a Python environment for the model: 
+1. Setup a Python environment for the model in Terminal/Commandline: 
 
 ```
-# In terminal
 # Create a Python environment for opensoundscape: 
 conda create --name env_name pip python=3.7 # (or another version number)
 
-#Activate the environment: 
+# Activate the environment: 
 conda activate opensoundscape
 
-#Install my_package using pip: 
+# Install my_package using pip: 
 pip install opensoundscape
 
-# get environment to show in jupyter 
+# Get environment to show in jupyter 
 python -m ipykernel install --user --name=env_name --display-name=env_name
 
 
-#Deactivate the environment when you’re done using it: 
+# Deactivate the environment when you’re done using it: 
 conda deactivate
 
 ```
 
+If you later want to delete the environment: 
+
+```
+# delete environment
+conda env remove --name myenv
+
+# remove kernel for jupyter
+# (while in base envr)
+python -m jupyter kernelspec list # list environment kernels 
+python -m jupyter kernelspec remove myenv
+```
 
 
 ## Folders in this project 

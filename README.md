@@ -41,21 +41,13 @@ python -m jupyter kernelspec list # list environment kernels
 python -m jupyter kernelspec remove myenv
 ```
 
+## Folders in this project
 
-## Folders in this project 
-
-1. `gopher_call_file_exmples` - folder with example audio files and instructions to teach a technician how to manually listen to audio files for gopher frog calls (without using the RIBBIT model). 
-1. `manually_verified_data` - folder with csv files of data from audio files that have been manually listened to for gopher frog calls
-1. `python-ribbit` - folder with all code to run RIBBIT model and clean data 
-
-
-## Using the model 
-
-1. The `ichaway` folder contains all information needed to run the model for data from Ichaway and sample data to test running the model. 
-2. The `FLSHE` folder contains all information needed to run the model for data from Fall Line Sandhills East and sample data to test running the model. 
-3. Both of the above folders may be easily adapted to alternative datasets by organizing audio files to match the format given within each of those folders. 
-4. The `ribbit_functions` folder contains python functions that are used to run the model and organize data. They should not need to be edited for everyday use of the model. 
-5. The `gopher_call_examples` folder contains audio file examples of gopher frogs. 
+- The `ichaway` folder contains all information needed to run the model for data from Ichaway and sample data to test running the model. 
+- The `FLSHE` folder contains all information needed to run the model for data from Fall Line Sandhills East and sample data to test running the model. 
+- Note for other users: both of the above folders may be easily adapted to alternative datasets by organizing audio files to match the format given within each of those folders. 
+- The `ribbit_functions` folder contains python functions that are used to run the model and organize data. They should not need to be edited for everyday use of the model. 
+- The `gopher_call_examples` folder contains audio file examples of gopher frogs. 
 
 
 ## Current issues

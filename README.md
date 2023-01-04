@@ -2,7 +2,7 @@
 
 ## Summary
 
-This project uses the [repeat interval-based bioacoustic identification tool (RIBBIT)](https://conbio.onlinelibrary.wiley.com/doi/epdf/10.1111/cobi.13718) from [OpenSoundscape](http://opensoundscape.org/en/latest/) to identify gopher frog calls in audio recording. The goal is to create a tool that can be used by conservationists to monitor endangered gopher frog populations and devise management plans. 
+This project uses the [repeat interval-based bioacoustic identification tool (RIBBIT)](https://conbio.onlinelibrary.wiley.com/doi/epdf/10.1111/cobi.13718) from [OpenSoundscape](http://opensoundscape.org/en/latest/) to identify gopher frog calls in audio recording. The goal is to create a tool that can be used by conservationists to monitor endangered gopher frog populations and devise management plans. The RIBBIT algorithm will produce numeric scores on short clips of audio. The highest scoring clips can then be manually reviewed to confirm the presence of gopher frogs.
 
 ## Instalation and setup 
 
@@ -51,15 +51,12 @@ python -m jupyter kernelspec remove myenv
 
 ## Using the model 
 
-1. Use the `run_lcapito_model.ipynb` file to run the gopher frog model with new data. 
-  * You can adjust the RIBBIT parameter values and/or what files you want to run through the model - all parameters that are intended to be "editable" by users are indicated with `#*#` 
-  * Directions/tips on using the model are given within the file 
-  * Two examples of using the model are given. The only difference is the structure of the directories that contain the audio files. To use it on your own computer/data, you will have to edit the file paths to match where your audio file data is stored. The examples were created to make it easy to run data from our two collaborating sites (Sandhills and Ichaway), but should be easily editable to be used for other sites, as long as the directory structure is similar. The key to avoiding errors while using this model is making sure your file paths are accurate. 
-  * There is also an example of conducting a one-factor-at-a-time parameter exploration if you want to try to improve the model's paramters. 
+1. The `ichaway` folder contains all information needed to run the model for data from Ichaway. 
+2. The `FLSHE` folder contains all information needed to run the model for data from Fall Line Sandhills East. 
+3. Both of the above folders may be easily adapted to alternative datasets by organizing audio files to match the format given within each of those folders. 
+4. The `ribbit_functions` folder contains python functions that are used to run the model and organize data. They should not need to be edited for everyday use of the model. 
+5. The `gopher_call_examples` folder contains audio file examples of gopher frogs. 
 
-1. The data cleaning files are two examples of how to combine the RIBBIT score csv files with data of files that have already been manually listened to, to assess the capabilities of the model (e.g. precision and recall). 
-
-1. The `eda.ipynb` file is an example of exploratory data analysis using the cleaned data. 
 
 ## Current issues
 

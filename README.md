@@ -51,8 +51,8 @@ python -m jupyter kernelspec remove myenv
 
 ## Using the model 
 
-1. The `ichaway` folder contains all information needed to run the model for data from Ichaway. 
-2. The `FLSHE` folder contains all information needed to run the model for data from Fall Line Sandhills East. 
+1. The `ichaway` folder contains all information needed to run the model for data from Ichaway and sample data to test running the model. 
+2. The `FLSHE` folder contains all information needed to run the model for data from Fall Line Sandhills East and sample data to test running the model. 
 3. Both of the above folders may be easily adapted to alternative datasets by organizing audio files to match the format given within each of those folders. 
 4. The `ribbit_functions` folder contains python functions that are used to run the model and organize data. They should not need to be edited for everyday use of the model. 
 5. The `gopher_call_examples` folder contains audio file examples of gopher frogs. 
